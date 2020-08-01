@@ -1,8 +1,8 @@
 {
-  "name": "create-vite-app",
-  "version": "1.18.0",
+  "name": "create-vite",
+  "version": "0.0.1",
   "license": "MIT",
-  "author": "Evan You",
+  "author": "musakui",
   "main": "index.js",
   "bin": {
     "create-vite-app": "index.js",
@@ -14,12 +14,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vitejs/create-vite-app.git"
+    "url": "git+https://github.com/musakui/create-vite.git"
   },
   "bugs": {
-    "url": "https://github.com/vitejs/create-vite-app/issues"
+    "url": "https://github.com/musakui/create-vite/issues"
   },
-  "homepage": "https://github.com/vitejs/create-vite-app/tree/master/#readme",
+  "homepage": "https://github.com/musaku/create-vite/tree/master/#readme",
   "dependencies": {
     "fs-extra": "^9.0.0",
     "minimist": "^1.2.5"
