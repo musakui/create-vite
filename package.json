@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/musakui/create-vite/issues"
   },
-  "homepage": "https://github.com/musaku/create-vite/tree/master/#readme",
+  "homepage": "https://github.com/musakui/create-vite/tree/master/#readme",
   "dependencies": {
     "fs-extra": "^9.0.0",
     "minimist": "^1.2.5"
