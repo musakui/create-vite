@@ -1,0 +1,3 @@
+[submodule "template-vue"]
+	path = template-vue
+	url = https://github.com/musakui/template-vue
