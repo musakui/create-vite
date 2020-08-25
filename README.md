@@ -14,6 +14,7 @@ $ npm run dev
 Available templates:
 
 - `vue` (default)
+- `three` (Three.js)
 - `react`
 - `react-ts`
 - `preact`
@@ -22,5 +23,5 @@ Available templates:
 To scaffold with specific template:
 
 ```bash
-$ npm init @musakui/vite my-react-project --template react
+$ npm init @musakui/vite my-three-project --template three
 ```
