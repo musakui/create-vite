@@ -7,8 +7,12 @@ async function init() {
   const targetDir = argv._[0] || '.'
   const cwd = process.cwd()
   const root = path.join(cwd, targetDir)
+  const skipFiles = new Set([
+    '.git',
+    'package.json',
+  ])
   const renameFiles = {
-    _gitignore: '.gitignore',
+    '.npmignore': '.gitignore',
   }
   console.log(`Scaffolding project in ${root}...`)
 
@@ -35,7 +39,7 @@ async function init() {
   }
 
   const files = await fs.readdir(templateDir)
-  for (const file of files.filter((f) => f !== 'package.json')) {
+  for (const file of files.filter((f) => !skipFiles.has(f))) {
     await write(file)
   }
 
